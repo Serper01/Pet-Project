@@ -1,0 +1,180 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        background-color: black;
+        color: #fff;        
+    }
+    img {
+        max-width: 100%;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+    .left__icons{
+        display: flex;
+        position: absolute;
+        top: 58px;
+        left: 120px;
+        gap: 9px;
+        
+    }
+    .circle {
+    width: 26px;
+    height: 26px;
+    }
+    .triangle{
+        width: 30px;
+        height: 30px;
+    }
+    .square{
+        width: 25px;
+        height: 25px;
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+    }
+    .right__icons {
+        display: flex;
+        position: absolute;
+        top: 56px;
+        right: 120px; 
+        gap: 9px; 
+        width: 33px;
+        height: 31px;
+        
+    }
+    .main__container {
+        display: flex;
+        justify-content: left;
+        margin-top: 250px;
+        
+    }
+    .main__info h1 {
+        position:absolute;
+        left: 120px;
+        top: 342px;
+        font-size: 48px;
+        margin-bottom: 25px;
+    }
+    .main__info p {
+        position: absolute;
+        left: 120px;
+        top: 429px;
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        list-style:circle;
+        width: 350px;
+        
+        
+    }
+    .main__info .triangle{
+        position: absolute;
+        top: 437px;
+        left: 76px;
+    }
+    .main__info .square{
+        position: absolute;
+        top: 476px;
+        left: 76px;
+    }
+    .main__info .pink__circle {
+        position: absolute;
+        top: 279px;
+        left: 462px;
+        border: 6px;
+    }
+    .main__info .girl__mask {
+        position: absolute;
+        top: 295px;
+        left: 478px;
+    }
+    .background__image {
+       position: absolute;
+       top: 134px;
+       left: 359px;
+    }
+    .main__info .left__square{
+        position: absolute;
+        top: 614px;
+        left: 276px;
+    }
+    .main__info .left__mask{
+        position: absolute;
+        top: 631px;
+        left: 290px;
+    }
+    .main__info .right__square{
+        position: absolute;
+        top: 450px;
+        left: 1020px;
+    }
+    .main__info .right__image{
+        position: absolute;
+        top: 314px;
+        left: 1034px;
+    }
+    .main__info .right__small__square{
+        position: absolute;
+        top: 651px;
+        left: 1093px;
+    }
+    .main__info .right__circle{
+        position: absolute;
+        top: 651px;
+        left: 1171px;
+    }
+    .main__info .right__triangle{
+        position: absolute;
+        top: 667px;
+        left: 1235px;
+    }
+    .main__info .right__text{
+        position: absolute;
+        font-size: 1.1em;
+        top: 680px;
+        left: 1098px;
+    }
+    .footer {
+        position: absolute;
+        top: 914px;
+        bottom: 0px;
+        width: 100%;
+    }
+    .footer .left__text {
+        display: flex;
+        gap: 53px;
+        position: absolute;
+        top: 43px;
+        left: 120px;
+        font-size: 18px;
+    }
+    .footer .start__button {
+       position: absolute;
+       top: 42px;
+       left: 628px;
+       font-size: 22px;
+    }
+    .footer .button__triangle {
+        width: 23px;
+        height: 23px;
+        position: absolute;
+        top: 42px;
+        left: 800px;
+    }
+    .footer .right__text {
+        display: flex;
+        gap: 32px;
+        position: absolute;
+        top: 43px;
+        right: 126px;
+        font-size: 18px;
+    }
